@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Changer</title>
+    <style>
+        button{
+            height: 5rem;
+            width: 5rem;
+        }
+        #red{
+            background-color: red;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #black{
+            background-color: black;
+        }
+        #grey{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Color changer</h1>
+    <button id="red" class="container" onclick=changeToRed()></button>
+    <button id="blue" class="container" onclick=changeToBlue()></button>
+    <button id="black" class="container" onclick=changeToBlack()></button>
+    <button id="grey" class="container" onclick=changeToGrey()></button>
+    <h2>Click on any button above to change the color of the body to that color</h2>
+</body>
+
+    <script src="/.devcontainer/01_project/app.js"></script>
+
+</html>

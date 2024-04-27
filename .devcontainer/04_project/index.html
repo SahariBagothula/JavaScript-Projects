@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+        #displayContainer{
+            height: 2rem;
+            width: 8rem;
+            background-color: orange;
+            color: white;
+            border-radius: 0.5rem;
+            padding: 0.7rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="banner" style="color: white;">Your local time</div>
+        <div id="displayContainer"></div>
+    </div>
+</body>
+
+    <script src="/.devcontainer/04_project/app.js"></script>
+
+</html>
